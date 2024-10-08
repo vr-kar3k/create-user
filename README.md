@@ -3,22 +3,25 @@
 sudo git clone https://github.com/vr-kar3k/create-user.git
 
 2. After successfully downloaded, go to the folder 
-
-cd create-user
-
+```shell
+   $ cd create-user
+```
 3. execute bash command 
 
 to create 
-
-sudo python3 create_user.py
-
+```shell
+    $ sudo python3 create_user.py
+```
 to delete
-
-sudo python3 delete_user.py
-
+```shell
+    $ sudo python3 delete_user.py
+```
 
 Note: if u want to delete folder completely use this bash command
-      sudo rm -rf create-user
+
+```shell
+    $ sudo rm -rf create-user
+```
 -----------------------------------------------------------------------------------------------------
 
 
@@ -30,7 +33,7 @@ To create a user and set a password automatically in Ubuntu using a Python scrip
 
 This script will create a new user and set a password using bash commands.
 
-
+```shell
 import subprocess
 
 def create_user(username, password):
@@ -51,7 +54,7 @@ if __name__ == "__main__":
     password = "your password"  # Replace with your desired password
     
     create_user(username, password)
-
+```
 How this script works:
 
 1. subprocess.run(): Runs a shell command from within Python. In this case, it creates a user using useradd and sets the password using chpasswd.
@@ -82,7 +85,7 @@ ________________________________________________________________________________
 
 
 To delete a user and their home directory in Ubuntu using a Python script with bash commands, you can use the userdel command. Here’s the modified Python script to delete the user:
-
+```shell
 import subprocess
 
 def delete_user(username):
@@ -99,7 +102,7 @@ if __name__ == "__main__":
     username = "your username"
     
     delete_user(username)
-
+```
 How this script works:
 
 subprocess.run(): Executes the userdel command with the -r flag, which removes the user's home directory as well.
