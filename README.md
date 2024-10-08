@@ -1,7 +1,7 @@
 1. To download files in linux use below bash command.
-
-sudo git clone https://github.com/vr-kar3k/create-user.git
-
+```shell
+    $ sudo git clone https://github.com/vr-kar3k/create-user.git
+```
 2. After successfully downloaded, go to the folder 
 ```shell
    $ cd create-user
@@ -70,14 +70,14 @@ How to run:
 1. Save the Python script (create_user.py).
 
 2. Give it execution permission:
-
+```shell
 chmod +x create_user.py
-
+```
 
 3. Run the script using sudo:
-
+```shell
 sudo python3 create_user.py
-
+```
 
 This will create the user and set the password as specified in the script.
 
@@ -115,12 +115,12 @@ Steps to execute:
 1. Save the script as delete_user.py.
 
 2. Make it executable:
-
-chmod +x delete_user.py
-
+```shell
+    $ chmod +x delete_user.py
+```
 3. Run the script with sudo:
 
-
-sudo python3 delete_user.py
-
+```shell
+    $ sudo python3 delete_user.py
+```
 This will delete the user and their home directory.
