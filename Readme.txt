@@ -16,6 +16,9 @@ to delete
 
 sudo python3 delete_user.py
 
+
+Note: if u want to delete folder completely use this bash command
+      sudo rm -rf create-user
 -----------------------------------------------------------------------------------------------------
 
 
