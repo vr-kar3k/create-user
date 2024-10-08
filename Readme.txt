@@ -1,3 +1,26 @@
+1. To download files in linux use below bash command.
+
+sudo git clone https://github.com/vr-kar3k/create-user.git
+
+2. After successfully downloaded, go to the folder 
+
+cd create-user
+
+3. execute bash command 
+
+to create 
+
+sudo python3 create_user.py
+
+to delete
+
+sudo python3 delete_user.py
+
+-----------------------------------------------------------------------------------------------------
+
+
+if you need detailed information look below 
+
 To create a user and set a password automatically in Ubuntu using a Python script along with bash commands, you can combine subprocess calls to execute the necessary commands. Here’s an example Python script that accomplishes this:
 
 1. Python file (create_user.py):
