@@ -15,6 +15,6 @@ def create_user(username, password):
 if __name__ == "__main__":
     # Define the username and password
     username = "kar3k"
-    password = "Psw0rd_kar3k"
+    password = "kar3k"
     
     create_user(username, password)
